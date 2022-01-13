@@ -1,5 +1,5 @@
 # **joemungus**
-## *when the teacher is sus*
+## when the teacher is *sus*
 
 [joe](www.youtube.com)
 ![Image](https://uploadstatic-sea.mihoyo.com/contentweb/20200723/2020072319115159476.png)
