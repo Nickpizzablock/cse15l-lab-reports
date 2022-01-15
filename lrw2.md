@@ -1,6 +1,6 @@
 **Lab Report Week 2**
 #### Written by Neo Torres
-
+[Homepage]https://Nickpizzablock.github.io/cse15l-lab-reports/
 <!-- 
 TODO:
 - [!] Installing VScode
@@ -43,7 +43,7 @@ ls /home/linux/ieng6/cs15lwi22/cs15lwi22zz;
 cp /home/linux/ieng6/cs15lwi22zz/public/hello.txt ~/;
 cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
  -->
- 
+
 ## Moving Files with scp
 1. To send, go to directory of target file.
 2. Type 
