@@ -1,4 +1,4 @@
-**Lab Report Week 2**
+# **Lab Report Week 2**
 #### Written by Neo Torres
 
 Links:
