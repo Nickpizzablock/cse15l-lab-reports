@@ -1,7 +1,7 @@
 **Lab Report Week 2**
 #### Written by Neo Torres
 [Homepage]https://Nickpizzablock.github.io/cse15l-lab-reports/
-<!-- 
+<!--- 
 TODO:
 - [!] Installing VScode
 - [ ] Remotely Connecting
@@ -9,7 +9,7 @@ TODO:
 - [ ] Moving Files with scp
 - [ ] Setting an SSH Key
 - [ ] Optimizing Remote Running
- -->
+ --->
 
 ## Installing VScode
 1. Go to [https://code.visualstudio.com/](https://code.visualstudio.com/).
