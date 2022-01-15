@@ -1,8 +1,10 @@
 **Lab Report Week 2**
 #### Written by Neo Torres
 
-[Homepage]https://Nickpizzablock.github.io/cse15l-lab-reports/
+Links:
+[Homepage](https://nickpizzablock.github.io/cse15l-lab-reports/)
  
+
 <!-- TODO:
 - [!] Installing VScode
 - [ ] Remotely Connecting
