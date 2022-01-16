@@ -77,11 +77,11 @@ cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
 
 2. Save the key to the default directory
 3. Make a password and confirm
-4. Open Powershell as Administrator and enter the following commands (the public key is the file with .pub)
+4. Open Powershell as Administrator and enter the following commands (the private key is the file without .pub)
 >Get-Service ssh-agent | Set-Service -StartupType Manual <br>
 >Start-Service ssh-agent <br>
 >Get-Service ssh-agent <br>
->ssh-add (Directory of public key) <br>
+>ssh-add (Directory of private key) <br>
 5. Login into server and enter
 >mkdir .ssh
 6. Go back to client and type
