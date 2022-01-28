@@ -123,4 +123,4 @@ The challenge is to save, upload, and execute a java file. I was able to complet
 
 * press enter
 
-My time was 24 seconds. It saved type by not having to write the server name and file direcoty every time one needs to change. Having to do this manually would take a lot of work for something that can be automated. Having no password would save lots of time with less inputs.
+My time was 24 seconds. It saved time by not having to write the server name and file direcoty every time one needs to change. Having to do this manually would take a lot of work for something that can be automated. Having no password would save lots of time with less inputs.
