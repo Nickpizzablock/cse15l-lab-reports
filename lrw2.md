@@ -102,3 +102,21 @@ cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
 >cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 ![Image](CSE15lw2img5.jpg)
+
+The challenge is to save, upload, and execute a java file. I was able to complete the process is 7 steps like...
+
+>click terminal
+
+>scp "C:\Users\neodo\Downloads\Neo's Corner\whereAmI.java" cs15lwi22aqu@ieng6.ucsd.edu:~/
+
+>pressed enter button
+
+>ctrl+v the password
+
+>ssh cs15lwi22aqu@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+
+>pressed enter button
+
+>ctrl+v the password
+
+My time was 24 seconds. It saved type by not having to write the server name and file direcoty every time one needs to change. Having to do this manually would take a lot of work for something that can be automated.
