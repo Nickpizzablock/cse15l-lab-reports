@@ -103,9 +103,9 @@ cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
 
 ![Image](CSE15lw2img5.jpg)
 
-The challenge is to save, upload, and execute a java file. I was able to complete the process is 10 steps by using the up arrow.
+The challenge is to save, upload, and execute a java file. I was able to complete the process in 9 steps by using the up arrow.
 
-* press up 2 times
+* pressed up
 >scp "C:\Users\neodo\Downloads\Neo's Corner\whereAmI.java" cs15lwi22aqu@ieng6.ucsd.edu:~/
 
 * pressed enter
@@ -114,7 +114,7 @@ The challenge is to save, upload, and execute a java file. I was able to complet
 
 * pressed enter
 
-* press up 2 times
+* pressed up 2 times
 >ssh cs15lwi22aqu@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 
 * pressed enter
