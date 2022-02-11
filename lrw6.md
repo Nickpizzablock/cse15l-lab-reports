@@ -23,5 +23,11 @@ I editied my .ssh/config file so it is easier to log into ieng6. Here are my ste
 (a) after host should be replaced with your nickname of choice. Mines "ieng".
 (b) after ostname should be the IP or domain of the server. In this case, its "ieng6.ucsd.edu"
 (c) after user should be your username. Mines "cs15lwi22aqu"
-(d) after IdentifyFile is the ssh code that automatically inputs your password for you
+(d) after IdentifyFile is the ssh file that automatically inputs your password for you. Typically its ~\.ssh\id_rsa
 
+Remember, Linux based operating systems use / while windows use \.
+
+
+### Demonstration of ssh working'
+
+###
