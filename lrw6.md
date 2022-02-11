@@ -5,35 +5,46 @@ Links:
 [Homepage](https://nickpizzablock.github.io/cse15l-lab-reports/)
 
 ## Streamlining ssh Configuration
-I editied my .ssh/config file so it is easier to log into ieng6. Here are my steps...
-<!-- Add a picture of -->
+I editied my .ssh/config file so it is easier to log into ieng6. Here are my steps.
+
+<br>
 
 ### Editing .ssh/config 
-1. Navigate to your .ssh folder. For windows, it is usually under C:\Users\(your device name)\.ssh
+
+1. Navigate to your .ssh folder. For windows, it is usually under `C:\Users\(your device name)\.ssh`.
 
 2. Right click an empty part of the folder and click "Open with Code".
 
-3. Make a new file named conifg if there isn't one alreadt (no extension).
+3. Make a new file named `conifg` if there isn't one alreadt (no extension).
 
 4. In the file, type in the following lines.
 
 ```
-
+Host (a)
+    HostName (b)
+    User cs15lwi22zzz (c)
 ```
 
 (a) after host should be replaced with your nickname of choice. Mines `ieng`.
-(b) after ostname should be the IP or domain of the server. In this case, its `ieng6.ucsd.edu`.
-(c) after user should be your username. Mines `cs15lwi22aqu`.
-(d) after IdentifyFile is the ssh file that automatically inputs your password for you. Typically its `~\.ssh\id_rsa`
 
-Remember, Linux based operating systems use / while windows use \.
+(b) after hostname should be the IP or domain of the server (Phrase after @). In this case, its `ieng6.ucsd.edu`.
 
+(c) after user should be your username (Phrase before @). Mines `cs15lwi22aqu`.
+
+Notes:
+
+* Remember, Linux based operating systems use `/` while windows use `\` for directories.
+* Use exactly 4 spaces for indentation or so I've heard
+
+<br>
 
 ### Demonstration of ssh working
 
 Now, all I have to do is type `ssh ieng` and input my local ssh password to get into ieng6.
 
 Tadaaaaaaa
+
+<br>
 
 ### Demonstration of scp working
 
