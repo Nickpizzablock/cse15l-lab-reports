@@ -11,15 +11,17 @@ I editied my .ssh/config file so it is easier to log into ieng6 servers. Here ar
 
 ### Editing .ssh/config 
 
-![Image](lrw6p1.1.jpg)
+![Image](lrw6img/lrw6p1.1.jpg)
 
 1. Navigate to your .ssh folder. For windows, it is usually under `C:\Users\(your device name)\.ssh`.
 
 2. Right click an empty part of the folder and click "Open with Code".
 
-![Image](lrw6p1.1.jpg)
+![Image](lrw6img/lrw6p1.2.jpg)
 
 3. Make a new file named `conifg` if there isn't one alreadt (no extension).
+
+![Image](lrw6img/lrw6p1.3.jpg)
 
 4. In the file, type in the following lines.
 
@@ -48,9 +50,9 @@ Notes:
 
 Now, all I have to do is type `ssh ieng` and input my local ssh password to get into ieng6.
 
-Tadaaaaaaa
+![Image](lrw6img/lrw6p2.1.jpg)
 
-![Image](lrw6p2.1.jpg)
+Tadaaaaaaa
 
 <br>
 
@@ -59,6 +61,6 @@ Tadaaaaaaa
 I can also send a file over to ieng6 with the shortcut.
 I'm going to send a text file over using the command `scp example.txt ieng`.
 
-![Image](lrw6p3.1.jpg)
+![Image](lrw6img/lrw6p3.1.jpg)
 
 YAY!
