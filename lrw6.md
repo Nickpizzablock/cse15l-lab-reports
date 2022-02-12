@@ -64,3 +64,6 @@ I'm going to send a text file over using the command `scp example.txt ieng`.
 ![Image](lrw6img/lrw6p3.1.jpg)
 
 YAY!
+
+<iframe src="https://giphy.com/embed/IMfi5ugpf3W1y" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-dance-fun-IMfi5ugpf3W1y">via GIPHY</a></p>
+
