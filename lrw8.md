@@ -16,6 +16,8 @@ if the url is valid. `a.com(())` is invalid because you don't see any websites w
 
 Basically, anything anything within brackets should be the hyperlink text and everything in the url must look valid.
 
+I'll be following CommonMark Demo's interpretation.
+
 ### Test 1
 
 [Insert Picture of test contents]
