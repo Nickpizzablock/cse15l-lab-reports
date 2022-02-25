@@ -12,7 +12,9 @@ The definition of a link will be set by the url that the hyperlink will take you
 
 AND 
 
-if the url is valid `a.com(())` is invalid because you don't see any websites with characters after the .com except characters after a `/`
+if the url is valid. `a.com(())` is invalid because you don't see any websites with characters after the .com except characters after a `/`
+
+Basically, anything anything within brackets should be the hyperlink text and everything in the url must look valid.
 
 ### Test 1
 
