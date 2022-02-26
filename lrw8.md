@@ -12,7 +12,7 @@ The definition of a link will be set by VSCode Preview's interpretation. Anythin
 
 ### Test 1
 
-The test should list ```google.com``, `google.com`, and `ucsd.edu`.
+The test should list `` `google.com``, `google.com`, and `ucsd.edu`.
 
 ![Image](lrw8img/mdpJoeTest1.jpg)
 
