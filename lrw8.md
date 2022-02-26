@@ -8,19 +8,11 @@ Links:
 We are given 3 tests and we will see who's code will pass more tests. 
 
 ## NOTE: 
-The definition of a link will be set by the url that the hyperlink will take you when clicked 
-
-AND 
-
-if the url is valid. `a.com(())` is invalid because you don't see any websites with characters after the .com except characters after a `/`
-
-Basically, anything anything within brackets should be the hyperlink text and everything in the url must look valid.
-
-I'll be following VSCode Preview's interpretation.
+The definition of a link will be set by VSCode Preview's interpretation. Anything with the hyperlink should be detected by MarkdownParse. The link doesn't have to be a functioning link, as long as it is detected in VSCode's preview.
 
 ### Test 1
 
-The test should list ``google.com`, `google.com`, and `ucsd.edu`.
+The test should list ```google.com``, `google.com`, and `ucsd.edu`.
 
 ![Image](lrw8img/mdpJoeTest1.jpg)
 
@@ -67,3 +59,5 @@ The test should list `https://www.twitter.com`, `https://ucsd-cse15l-w22.github.
 
 #### Solutions
 For newlines in brackets and parentheses, there should be a way to remove the newlines from the list. Maybe after the main while loop is done, check if each element of the list has a newline and remove if so. Aside from newlines, we need to detect if there is an open bracket after finding the open parenthesis so that it doesn't encapsulate another link.
+
+GGWP Joe. You win this time...
