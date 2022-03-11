@@ -36,6 +36,8 @@ The first difference is on file `194.md`. Here's the contents.
 [Foo*bar\]]
 
 ````
+![Image](lrw10img/mpdfileDiff1.jpg)
+
 My result: `[]`
 
 Professor's result: `[url]`
@@ -60,6 +62,8 @@ The first difference is on file `490.md`. Here's the contents.
 bar>)
 
 ````
+![Image](lrw10img/mpdfileDiff2.jpg)
+
 My result: `[foo /n bar]` (`/n` is the escape key like a next line)
 
 Professor's result: `[]`
