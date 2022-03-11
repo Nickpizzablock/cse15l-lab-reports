@@ -4,6 +4,12 @@
 Links:
 [Homepage](https://nickpizzablock.github.io/cse15l-lab-reports/)
 
+Here are the repos I used:
+
+[My Group's Repo](https://github.com/JaredJose/markdown-parse)
+
+[The Reviewed Repo](https://github.com/ucsd-cse15l-w22/markdown-parse)
+
 ## Who has the better program? Professor Joe vs. Me
 We are given 3 tests and we will see who's code will pass more tests. 
 
