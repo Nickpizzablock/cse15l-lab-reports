@@ -58,6 +58,6 @@ The test should list `https://www.twitter.com`, `https://ucsd-cse15l-w22.github.
 ![Image](lrw8img/mdpJoeTestOut3.jpg)
 
 #### Solutions
-For newlines in brackets and parentheses, there should be a way to remove the newlines from the list. Maybe after the main while loop is done, check if each element of the list has a newline and remove if so. Aside from newlines, we need to detect if there is an open bracket after finding the open parenthesis so that it doesn't encapsulate another link.
+For newlines in brackets and parentheses, there should be a way to remove the newlines from the list. Maybe after the main while loop is done, check if each element of the list has a newline and remove if so. Aside from newlines, we need to detect if there is an open bracket after finding the open parenthesis so that it doesn't encapsulate another link. 
 
 GGWP Joe. You win this time...
