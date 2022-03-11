@@ -45,13 +45,15 @@ The test should list `a.com`, `a.com(())`, and `example.com`.
 
 #### Joe's Implementation = PASS
 
+![Image](lrw8img/bruhhruhu.jpg)
+
 #### Solutions
 For nest parentheses, brackets, and escaped brackets, if an `[` is detected, if there is also a matching `]` followed by a `(` and `)`, that link should be prioritized. There should be a recursive method like a while loop to make sure the program can take multiple nested links.
 <!-- way to remember how many of the same parentheses, brackets, and escaped brackets is repeated and match their open with closed. Like if there is a `[` then an `[`, the code should start  -->
 
 ### Test 3
 
-The test should list `https://www.twitter.com`, `https://ucsd-cse15l-w22.github.io/`, and `https://cse.ucsd.edu/`.
+The test should list `https://ucsd-cse15l-w22.github.io/` only.
 
 ![Image](lrw8img/mdpJoeTest3.jpg)
 
