@@ -52,6 +52,10 @@ It seems like there is a special case with colons where after a set of brackets 
 
 Since this seems like a new case, we would have to add code to detect if there is a set of brackets and a colon. Then, save the text after the colon in a variable. When we detect the same brackets with same text inside, if there are no following parenthesis, provide the variable we just saved as a url.
 
+![Image](lrw10img/lrw10error1.1.jpg)
+
+Above is my group's code. We would add the code somewhere between these lines shown above. Since the code is absent, my code thought a colon does not belong in a URL so it passed. The error resides in the the break clause since the nextOpenBracket should not be detected, break, then when the variable is called, it would continue from the previous variable possibly.
+
 
 ### Difference 2
 
@@ -73,6 +77,10 @@ Professor's result: `[]`
 According to CommonMark, the correct answer is `[]`, so the professor is correct.
 
 My code was incorrect as it does not handle escape keys correctly. I believe we need to add the potentialLink part of the professor's code in order to detect links that are separated by an escape key.
+
+![Image](lrw10img/lrw10error2.jpg)
+
+Above shows where I would handle the escape keys and I would detect if one of the next... variables is -1, then check the next line recursively until the currentIndex is > the length of the file. The error is when there is a break when one of the next... variables are -1 which is false when looking at multiple lines.
 
 Additionally, we should exclude text at and within `<` and  `>` pairs within the links. We would probably have to add `int nextLessThanSign = markdown.indexOf("<");` and `int nextGreaterThanSign = markdown.indexOf(">");` within looking for the parenthesis part of the code.
 
