@@ -72,6 +72,11 @@ cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
 <br>
 
 ## Setting an SSH Key
+EDIT 02/24/2024:
+Super Simple Steps
+>ssh-keygen # Not needed if already have key
+>ssh-copy-id username@serverip
+
 1. On client side, type
 >ssh-keygen 
 
