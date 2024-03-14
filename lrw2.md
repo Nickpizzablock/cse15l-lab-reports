@@ -72,6 +72,12 @@ cat /home/linux/ieng6/cs15lwi22zz/public/hello.txt;
 <br>
 
 ## Setting an SSH Key
+EDIT 03/13/2024:
+For Windows, follow this guide https://chrisjhart.com/Windows-10-ssh-copy-id/
+```
+type $env:USERPROFILE\.ssh\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} "cat >> .ssh/authorized_keys"
+```
+
 EDIT 02/24/2024:
 Super Simple Steps
 >ssh-keygen # Not needed if already have key <br>
