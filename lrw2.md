@@ -77,6 +77,11 @@ For Windows, follow this guide https://chrisjhart.com/Windows-10-ssh-copy-id/
 ```
 type $env:USERPROFILE\.ssh\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} "cat >> .ssh/authorized_keys"
 ```
+To remove the RSA password
+```
+ssh-keygen -p
+```
+Then press enter for default directory, then enter for no password, and enter to comfirm
 
 EDIT 02/24/2024:
 Super Simple Steps
